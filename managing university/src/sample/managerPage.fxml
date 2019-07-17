@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="448.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ManagerPageController">
+   <children>
+      <Button layoutX="157.0" layoutY="342.0" mnemonicParsing="false" onAction="#btnListOfAllClasses" prefHeight="61.0" prefWidth="310.0" text="List of all classes">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="157.0" layoutY="58.0" mnemonicParsing="false" onAction="#btnPresentingANewClass" prefHeight="61.0" prefWidth="310.0" text="Presenting a new class">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="157.0" layoutY="153.0" mnemonicParsing="false" onAction="#btnHireAProfessor" prefHeight="61.0" prefWidth="310.0" text="Hire a professor">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="157.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnRegisterANewStudent" prefHeight="61.0" prefWidth="310.0" text="Register a new student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

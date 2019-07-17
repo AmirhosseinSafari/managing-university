@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="470.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreatingANewClassController">
+   <children>
+      <Label alignment="CENTER" layoutX="95.0" layoutY="32.0" prefHeight="41.0" prefWidth="115.0" text="Name of class :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="94.0" prefHeight="41.0" prefWidth="225.0" text="Number of room in department :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="57.0" layoutY="273.0" prefHeight="41.0" prefWidth="192.0" text="Professor's ID of class :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="152.0" prefHeight="41.0" prefWidth="134.0" text="Date of class :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="208.0" prefHeight="41.0" prefWidth="134.0" text="ID of class :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextNameOfClass" alignment="CENTER" layoutX="312.0" layoutY="36.0" prefHeight="34.0" prefWidth="192.0" promptText="Name of class" />
+      <TextField fx:id="TextNumberOfRoom" alignment="CENTER" layoutX="312.0" layoutY="98.0" prefHeight="34.0" prefWidth="192.0" promptText="Number of room in department" />
+      <TextField fx:id="TextDateOfclass" alignment="CENTER" layoutX="312.0" layoutY="159.0" prefHeight="34.0" prefWidth="192.0" promptText="Date of class" />
+      <TextField fx:id="TextIDOfClass" alignment="CENTER" layoutX="312.0" layoutY="212.0" prefHeight="34.0" prefWidth="192.0" promptText="ID of class" />
+      <TextField fx:id="TextProfessorIDOfClass" alignment="CENTER" layoutX="312.0" layoutY="277.0" prefHeight="34.0" prefWidth="192.0" promptText="Professor's ID of class" />
+      <Button fx:id="createClassBTN" layoutX="188.0" layoutY="350.0" mnemonicParsing="false" onAction="#createClassBTNOfManager" prefHeight="49.0" prefWidth="192.0" text="Create">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="hiddenLBLOfCreatingNewClass" alignment="CENTER" layoutX="137.0" layoutY="412.0" prefHeight="34.0" prefWidth="294.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

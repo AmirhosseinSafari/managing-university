@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="448.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="223.0" layoutY="36.0" prefHeight="42.0" prefWidth="193.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="managerMenuBTN" layoutX="162.0" layoutY="160.0" mnemonicParsing="false" onAction="#managerMenuEnteration" prefHeight="57.0" prefWidth="311.0" text="Manager">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="studentMenuBTN" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="329.0" mnemonicParsing="false" onAction="#studentMenuEnteration" prefHeight="57.0" prefWidth="311.0" text="Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="professorMenuBTN" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="246.0" mnemonicParsing="false" onAction="#professorMenuEnteration" prefHeight="57.0" prefWidth="311.0" text="Professor">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="198.0" layoutY="90.0" prefHeight="45.0" prefWidth="242.0" text="You want to enter as . . .">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

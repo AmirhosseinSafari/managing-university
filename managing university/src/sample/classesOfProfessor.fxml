@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="614.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClassesOfProfessorController">
+   <children>
+      <ListView fx:id="listViewOfProfessorClasses" layoutX="27.0" layoutY="140.0" prefHeight="329.0" prefWidth="517.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="103.0" layoutY="483.0" prefHeight="49.0" prefWidth="86.0" text="Course id : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="professorClassesBTN" layoutX="103.0" layoutY="542.0" mnemonicParsing="false" onAction="#professorClassesBTN" prefHeight="58.0" prefWidth="354.0" text="Show Students">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameOfProfessorInClassesOfProfessor" alignment="CENTER" layoutX="115.0" layoutY="38.0" prefHeight="40.0" prefWidth="331.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="78.0" prefHeight="49.0" prefWidth="517.0" text="Name                            NumberOfRoom                            Date                            ID" />
+      <TextField fx:id="textFeildOfProfessorClasses" alignment="CENTER" layoutX="209.0" layoutY="483.0" prefHeight="49.0" prefWidth="248.0" promptText="Enter course id">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
